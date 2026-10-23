@@ -1,0 +1,32 @@
+.glass-card {
+    background: rgba(13, 13, 26, 0.75);
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.4);
+}
+.glass-card:hover {
+    border-color: rgba(217, 70, 239, 0.35);
+    box-shadow: 0 0 30px rgba(217, 70, 239, 0.15);
+}
+.glow-bg {
+    background: radial-gradient(circle at 50% 0%, rgba(217, 70, 239, 0.12) 0%, transparent 60%);
+}
+.grid-pattern {
+    background-size: 40px 40px;
+    background-image: linear-gradient(to right, rgba(255, 255, 255, 0.02) 1px, transparent 1px),
+                      linear-gradient(to bottom, rgba(255, 255, 255, 0.02) 1px, transparent 1px);
+}
+::-webkit-scrollbar {
+    width: 6px;
+}
+::-webkit-scrollbar-track {
+    background: #03030c;
+}
+::-webkit-scrollbar-thumb {
+    background: #1f1f38;
+    border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+    background: #d946ef;
+}
